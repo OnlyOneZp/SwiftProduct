@@ -2,4 +2,69 @@
 <Bucket
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyProduct/SwiftMet/MetObjectsAndClassesViewController.swift"
+            timestampString = "516877046.014411"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyProduct.MetObjectsAndClassesViewController.(viewDidLoad () -&gt; ()).(Shape #1).__allocating_init () -&gt; MyProduct.MetObjectsAndClassesViewController.(viewDidLoad () -&gt; ()).(Shape #1)"
+                  moduleName = "MyProduct"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eims/Documents/TEST/MyProduct/MyProduct/SwiftMet/MetObjectsAndClassesViewController.swift"
+                  timestampString = "516877857.972626"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyProduct.MetObjectsAndClassesViewController.(viewDidLoad () -&gt; ()).(Shape #1).__deallocating_deinit"
+                  moduleName = "MyProduct"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eims/Documents/TEST/MyProduct/MyProduct/SwiftMet/MetObjectsAndClassesViewController.swift"
+                  timestampString = "516877857.976368"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyProduct.MetObjectsAndClassesViewController.(viewDidLoad () -&gt; ()).(Shape #1).deinit"
+                  moduleName = "MyProduct"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eims/Documents/TEST/MyProduct/MyProduct/SwiftMet/MetObjectsAndClassesViewController.swift"
+                  timestampString = "516877857.979927"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

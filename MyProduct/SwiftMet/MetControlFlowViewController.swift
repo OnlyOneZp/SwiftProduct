@@ -46,7 +46,7 @@ class MetControlFlowViewController: UIViewController {
         }
         print(greeting)
         
-        //另一种处理可选值的方法是通过使用 ?? 操作符来提供一个默认值。如果可选值缺失的话，可以使用默认值来代 替
+        //另一种处理可选值的方法是通过使用 ?? 操作符来提供一个默认值。如果可选值缺失的话，可以使用默认值来代替
         let nickName: String? = nil
         let fullName: String = "john Appleseed"
         let informalGreeting = "Hi,\(nickName ?? fullName)"
@@ -100,6 +100,7 @@ class MetControlFlowViewController: UIViewController {
         }
         print(n)
         
+        //可以在循环中使用 ..< 来表示范围
         var total = 0
         for i in 0..<4 {
             total += i
@@ -110,6 +111,28 @@ class MetControlFlowViewController: UIViewController {
         
         optionalString = ""
         optionalName = ""
+        
+        
+        let mulStr = NSMutableString()
+        
+        mulStr.append("条件：if、switch；循环：for-in、for、while、repeat-while\n包裹条件和循环变量括号可以省略，但是语句体的大括号是必须的\n\n")
+        mulStr.append("在if语句中，条件必须是一个布尔表达式---这意味着想if score {...}这样的代码将报错，而不会隐形地与0作对比\n\n")
+        mulStr.append("你可以一起使用if和let来出理值确实的情况。一个可选的值是一个具体的值或者是nil以表示值缺失。在类型后面加一个问号来标记这个变量的值是可选的\n\n")
+        mulStr.append("如果变量的可选值是nil，条件会判断为false，大括号中的代码会被跳过。如果不是nil，会将值解包并赋给let后面的常量，这样代码快中就可以使用这个值了\n\n")
+        mulStr.append("另一种处理可选值的方法是通过使用 ?? 操作符来提供一个默认值。如果可选值缺失的话，可以使用默认值来代替\n\n")
+        mulStr.append("switch 支持任意类型的数据以及各种比较操作---不仅仅是整数以及测试相等\n\n")
+        mulStr.append("运行switch中匹配到的子句之后，程序会退出switch语句，并不会继续向下运行，所以不需要在句尾写break\n\n")
+        mulStr.append("使用while来重复运行一段代码直到不满足条件，循环条件也可以在句尾，保证能至少循环一次\n\n")
+        mulStr.append("可以在循环中使用 ..< 来表示范围\n\n")
+        mulStr.append("使用 ..< 创建的范围不包含上界，如果包含的话需要使用 ...\n\n")
+        
+        
+        let textView = UITextView(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.size.width, height: UIScreen.main.bounds.size.height))
+        textView.endEditing(false)
+        textView.font = UIFont.systemFont(ofSize: 15.0)
+        textView.text = mulStr as String
+        
+        self.view.addSubview(textView)
     }
 
     
