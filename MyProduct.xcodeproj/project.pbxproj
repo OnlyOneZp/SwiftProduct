@@ -95,6 +95,7 @@
 		3C689EF71ECC3FB900BD2C68 /* SwiftMet */ = {
 			isa = PBXGroup;
 			children = (
+				3C689F001ECC3FB900BD2C68 /* SwiftFirstViewController.swift */,
 				3C689EF81ECC3FB900BD2C68 /* MetControlFlowViewController.swift */,
 				3C689EF91ECC3FB900BD2C68 /* MetEnumAndStructViewController.swift */,
 				3C689EFA1ECC3FB900BD2C68 /* MetErrorHandlingViewController.swift */,
@@ -103,7 +104,6 @@
 				3C689EFD1ECC3FB900BD2C68 /* MetObjectsAndClassesViewController.swift */,
 				3C689EFE1ECC3FB900BD2C68 /* MetProtocolsAndExtensionsViewController.swift */,
 				3C689EFF1ECC3FB900BD2C68 /* MetSimpleValuesViewController.swift */,
-				3C689F001ECC3FB900BD2C68 /* SwiftFirstViewController.swift */,
 			);
 			path = SwiftMet;
 			sourceTree = "<group>";

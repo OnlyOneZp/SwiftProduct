@@ -149,6 +149,30 @@ class MetObjectsAndClassesViewController: UIViewController {
         print(sideLength)
         
         
+        
+        let mulStr = NSMutableString()
+        
+        mulStr.append("使用 class 和类名来创建一个类。类中属性的声明和常量、变量声明一样，唯一的区别就是他们的上下文是类。同样方法和函数声明一样\n\n")
+        mulStr.append("要创建一个类的实例，在类名后面加上括号。使用点语法来访问实例的属性和方法\n\n")
+        mulStr.append("这个版本的Shape类缺少了一些重要的东西：一个构造函数来初始化类实例。使用init来创建一个构造器\n\n")
+        mulStr.append("如果你需要在删除对象之前进行一些清理工作，使用deinit创建一个析构函数\n\n")
+        mulStr.append("子类的定义方法是在他们的类名后面加上父类的名字，用冒号分割。创建类的时候并不需要一个标准的根类，所以你可以忽略父类\n\n")
+        mulStr.append("子类如果要重写父类的方法的话，需要用override标记---如果没有添加override就重写父类方法，编译器会报错。编译器同样会检测override标记的方法是否确实在父类中\n\n")
+        mulStr.append("除了储存简单的属性之外，属性还可以有getter和setter\n\n")
+        mulStr.append("类的构造器执行了三步\n\n")
+        mulStr.append("1、设置子类声明的属性值\n\n")
+        mulStr.append("2、调用父类的构造器\n\n")
+        mulStr.append("3、改变父类定义的属性值。其他的工作比如调用方法、getters和setters也可以在这个阶段完成\n\n")
+        mulStr.append("如果你不需要计算属性值，但是仍然需要在设置一个新值之前或者之后运行代码。使用willSet和didSet\n\n")
+        mulStr.append("处理变量的可选值时，你可以在操作（比如方法、属性和子脚本）之前加 ？ 。如果 ？ 之前的值是 nil，？ 后面的东西都会被忽略，并且整个表达式返回nil。否则， ？ 之后的东西都会被运行。在这两种情况下，整个表达式的值也是一个可选值\n\n")
+        
+        
+        let textView = UITextView(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.size.width, height: UIScreen.main.bounds.size.height))
+        textView.endEditing(false)
+        textView.font = UIFont.systemFont(ofSize: 15.0)
+        textView.text = mulStr as String
+        
+        self.view.addSubview(textView)
     }
 
     override func didReceiveMemoryWarning() {
