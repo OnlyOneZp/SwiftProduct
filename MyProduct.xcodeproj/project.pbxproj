@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C0ABADA1ED51636008D9401 /* TheBasicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0ABAD91ED51636008D9401 /* TheBasicsViewController.swift */; };
+		3C0ABADC1ED5185A008D9401 /* BasicsChangLiangViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0ABADB1ED5185A008D9401 /* BasicsChangLiangViewController.swift */; };
+		3C0ABADE1ED51868008D9401 /* BasicsZhuShiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0ABADD1ED51868008D9401 /* BasicsZhuShiViewController.swift */; };
+		3C0ABAE01ED51875008D9401 /* BasicsFengHaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0ABADF1ED51875008D9401 /* BasicsFengHaoViewController.swift */; };
+		3C0ABAE21ED51884008D9401 /* BasicsZhengShuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0ABAE11ED51884008D9401 /* BasicsZhengShuViewController.swift */; };
+		3C0ABAE41ED51896008D9401 /* BasicsFuDianShuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0ABAE31ED51896008D9401 /* BasicsFuDianShuViewController.swift */; };
+		3C0ABAE61ED518A6008D9401 /* BasicsLeiXingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0ABAE51ED518A6008D9401 /* BasicsLeiXingViewController.swift */; };
+		3C0ABAE81ED518B2008D9401 /* BasicsShuZhiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0ABAE71ED518B2008D9401 /* BasicsShuZhiViewController.swift */; };
+		3C0ABAEA1ED518C5008D9401 /* BasicsZhuanHuanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0ABAE91ED518C5008D9401 /* BasicsZhuanHuanViewController.swift */; };
+		3C0ABAEC1ED518D2008D9401 /* BasicsBieMingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0ABAEB1ED518D2008D9401 /* BasicsBieMingViewController.swift */; };
+		3C0ABAEE1ED518DE008D9401 /* BasicsBoolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0ABAED1ED518DE008D9401 /* BasicsBoolViewController.swift */; };
+		3C0ABAF01ED518F0008D9401 /* BasicsYuanZuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0ABAEF1ED518F0008D9401 /* BasicsYuanZuViewController.swift */; };
+		3C0ABAF21ED518FB008D9401 /* BasicsKeXuanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0ABAF11ED518FB008D9401 /* BasicsKeXuanViewController.swift */; };
+		3C0ABAF41ED51958008D9401 /* BasicsCuoWuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0ABAF31ED51958008D9401 /* BasicsCuoWuViewController.swift */; };
+		3C0ABAF61ED51963008D9401 /* BasicsDuanYanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0ABAF51ED51963008D9401 /* BasicsDuanYanViewController.swift */; };
 		3C689F011ECC3FB900BD2C68 /* MetControlFlowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C689EF81ECC3FB900BD2C68 /* MetControlFlowViewController.swift */; };
 		3C689F021ECC3FB900BD2C68 /* MetEnumAndStructViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C689EF91ECC3FB900BD2C68 /* MetEnumAndStructViewController.swift */; };
 		3C689F031ECC3FB900BD2C68 /* MetErrorHandlingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C689EFA1ECC3FB900BD2C68 /* MetErrorHandlingViewController.swift */; };
@@ -43,6 +58,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C0ABAD91ED51636008D9401 /* TheBasicsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TheBasicsViewController.swift; sourceTree = "<group>"; };
+		3C0ABADB1ED5185A008D9401 /* BasicsChangLiangViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicsChangLiangViewController.swift; sourceTree = "<group>"; };
+		3C0ABADD1ED51868008D9401 /* BasicsZhuShiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicsZhuShiViewController.swift; sourceTree = "<group>"; };
+		3C0ABADF1ED51875008D9401 /* BasicsFengHaoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicsFengHaoViewController.swift; sourceTree = "<group>"; };
+		3C0ABAE11ED51884008D9401 /* BasicsZhengShuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicsZhengShuViewController.swift; sourceTree = "<group>"; };
+		3C0ABAE31ED51896008D9401 /* BasicsFuDianShuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicsFuDianShuViewController.swift; sourceTree = "<group>"; };
+		3C0ABAE51ED518A6008D9401 /* BasicsLeiXingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicsLeiXingViewController.swift; sourceTree = "<group>"; };
+		3C0ABAE71ED518B2008D9401 /* BasicsShuZhiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicsShuZhiViewController.swift; sourceTree = "<group>"; };
+		3C0ABAE91ED518C5008D9401 /* BasicsZhuanHuanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicsZhuanHuanViewController.swift; sourceTree = "<group>"; };
+		3C0ABAEB1ED518D2008D9401 /* BasicsBieMingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicsBieMingViewController.swift; sourceTree = "<group>"; };
+		3C0ABAED1ED518DE008D9401 /* BasicsBoolViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicsBoolViewController.swift; sourceTree = "<group>"; };
+		3C0ABAEF1ED518F0008D9401 /* BasicsYuanZuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicsYuanZuViewController.swift; sourceTree = "<group>"; };
+		3C0ABAF11ED518FB008D9401 /* BasicsKeXuanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicsKeXuanViewController.swift; sourceTree = "<group>"; };
+		3C0ABAF31ED51958008D9401 /* BasicsCuoWuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicsCuoWuViewController.swift; sourceTree = "<group>"; };
+		3C0ABAF51ED51963008D9401 /* BasicsDuanYanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicsDuanYanViewController.swift; sourceTree = "<group>"; };
 		3C689EF81ECC3FB900BD2C68 /* MetControlFlowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetControlFlowViewController.swift; sourceTree = "<group>"; };
 		3C689EF91ECC3FB900BD2C68 /* MetEnumAndStructViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetEnumAndStructViewController.swift; sourceTree = "<group>"; };
 		3C689EFA1ECC3FB900BD2C68 /* MetErrorHandlingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetErrorHandlingViewController.swift; sourceTree = "<group>"; };
@@ -92,18 +122,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C0ABAD81ED51612008D9401 /* TheBasics */ = {
+			isa = PBXGroup;
+			children = (
+				3C0ABAD91ED51636008D9401 /* TheBasicsViewController.swift */,
+				3C0ABADB1ED5185A008D9401 /* BasicsChangLiangViewController.swift */,
+				3C0ABADD1ED51868008D9401 /* BasicsZhuShiViewController.swift */,
+				3C0ABADF1ED51875008D9401 /* BasicsFengHaoViewController.swift */,
+				3C0ABAE11ED51884008D9401 /* BasicsZhengShuViewController.swift */,
+				3C0ABAE31ED51896008D9401 /* BasicsFuDianShuViewController.swift */,
+				3C0ABAE51ED518A6008D9401 /* BasicsLeiXingViewController.swift */,
+				3C0ABAE71ED518B2008D9401 /* BasicsShuZhiViewController.swift */,
+				3C0ABAE91ED518C5008D9401 /* BasicsZhuanHuanViewController.swift */,
+				3C0ABAEB1ED518D2008D9401 /* BasicsBieMingViewController.swift */,
+				3C0ABAED1ED518DE008D9401 /* BasicsBoolViewController.swift */,
+				3C0ABAEF1ED518F0008D9401 /* BasicsYuanZuViewController.swift */,
+				3C0ABAF11ED518FB008D9401 /* BasicsKeXuanViewController.swift */,
+				3C0ABAF31ED51958008D9401 /* BasicsCuoWuViewController.swift */,
+				3C0ABAF51ED51963008D9401 /* BasicsDuanYanViewController.swift */,
+			);
+			path = TheBasics;
+			sourceTree = "<group>";
+		};
 		3C689EF71ECC3FB900BD2C68 /* SwiftMet */ = {
 			isa = PBXGroup;
 			children = (
 				3C689F001ECC3FB900BD2C68 /* SwiftFirstViewController.swift */,
-				3C689EF81ECC3FB900BD2C68 /* MetControlFlowViewController.swift */,
-				3C689EF91ECC3FB900BD2C68 /* MetEnumAndStructViewController.swift */,
-				3C689EFA1ECC3FB900BD2C68 /* MetErrorHandlingViewController.swift */,
-				3C689EFB1ECC3FB900BD2C68 /* MetFunctionsAndClosuresViewController.swift */,
-				3C689EFC1ECC3FB900BD2C68 /* MetGenericsViewController.swift */,
-				3C689EFD1ECC3FB900BD2C68 /* MetObjectsAndClassesViewController.swift */,
-				3C689EFE1ECC3FB900BD2C68 /* MetProtocolsAndExtensionsViewController.swift */,
 				3C689EFF1ECC3FB900BD2C68 /* MetSimpleValuesViewController.swift */,
+				3C689EF81ECC3FB900BD2C68 /* MetControlFlowViewController.swift */,
+				3C689EFB1ECC3FB900BD2C68 /* MetFunctionsAndClosuresViewController.swift */,
+				3C689EFD1ECC3FB900BD2C68 /* MetObjectsAndClassesViewController.swift */,
+				3C689EF91ECC3FB900BD2C68 /* MetEnumAndStructViewController.swift */,
+				3C689EFE1ECC3FB900BD2C68 /* MetProtocolsAndExtensionsViewController.swift */,
+				3C689EFA1ECC3FB900BD2C68 /* MetErrorHandlingViewController.swift */,
+				3C689EFC1ECC3FB900BD2C68 /* MetGenericsViewController.swift */,
 			);
 			path = SwiftMet;
 			sourceTree = "<group>";
@@ -134,6 +186,7 @@
 				3CB0C3A81EC940E7000F201E /* AppDelegate.swift */,
 				3CB0C3AA1EC940E7000F201E /* ViewController.swift */,
 				3C689EF71ECC3FB900BD2C68 /* SwiftMet */,
+				3C0ABAD81ED51612008D9401 /* TheBasics */,
 				3CB0C3D91EC9922E000F201E /* Supporting Files */,
 			);
 			path = MyProduct;
@@ -303,14 +356,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C0ABAF61ED51963008D9401 /* BasicsDuanYanViewController.swift in Sources */,
 				3CB0C3AB1EC940E7000F201E /* ViewController.swift in Sources */,
+				3C0ABAE21ED51884008D9401 /* BasicsZhengShuViewController.swift in Sources */,
 				3C689F081ECC3FB900BD2C68 /* MetSimpleValuesViewController.swift in Sources */,
 				3C689F041ECC3FB900BD2C68 /* MetFunctionsAndClosuresViewController.swift in Sources */,
 				3C689F021ECC3FB900BD2C68 /* MetEnumAndStructViewController.swift in Sources */,
+				3C0ABAE41ED51896008D9401 /* BasicsFuDianShuViewController.swift in Sources */,
+				3C0ABAF21ED518FB008D9401 /* BasicsKeXuanViewController.swift in Sources */,
+				3C0ABAE81ED518B2008D9401 /* BasicsShuZhiViewController.swift in Sources */,
+				3C0ABADE1ED51868008D9401 /* BasicsZhuShiViewController.swift in Sources */,
+				3C0ABAEA1ED518C5008D9401 /* BasicsZhuanHuanViewController.swift in Sources */,
 				3C689F091ECC3FB900BD2C68 /* SwiftFirstViewController.swift in Sources */,
+				3C0ABAF01ED518F0008D9401 /* BasicsYuanZuViewController.swift in Sources */,
+				3C0ABADA1ED51636008D9401 /* TheBasicsViewController.swift in Sources */,
 				3C689F061ECC3FB900BD2C68 /* MetObjectsAndClassesViewController.swift in Sources */,
+				3C0ABAE61ED518A6008D9401 /* BasicsLeiXingViewController.swift in Sources */,
+				3C0ABAEC1ED518D2008D9401 /* BasicsBieMingViewController.swift in Sources */,
+				3C0ABADC1ED5185A008D9401 /* BasicsChangLiangViewController.swift in Sources */,
+				3C0ABAF41ED51958008D9401 /* BasicsCuoWuViewController.swift in Sources */,
 				3C689F011ECC3FB900BD2C68 /* MetControlFlowViewController.swift in Sources */,
 				3C689F031ECC3FB900BD2C68 /* MetErrorHandlingViewController.swift in Sources */,
+				3C0ABAEE1ED518DE008D9401 /* BasicsBoolViewController.swift in Sources */,
+				3C0ABAE01ED51875008D9401 /* BasicsFengHaoViewController.swift in Sources */,
 				3C689F071ECC3FB900BD2C68 /* MetProtocolsAndExtensionsViewController.swift in Sources */,
 				3CB0C3A91EC940E7000F201E /* AppDelegate.swift in Sources */,
 				3C689F051ECC3FB900BD2C68 /* MetGenericsViewController.swift in Sources */,
@@ -473,6 +541,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = p2pMyProduct;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -486,6 +555,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = p2pMyProduct;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -59,21 +59,23 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         switch indexPath.row {
             
         case 0:
-            
-            let swiftFirseVC = SwiftFirstViewController()
-            self.navigationController?.pushViewController(swiftFirseVC, animated: true)
-            
-            break
-            
+            pushVC(viewController: SwiftFirstViewController())
+        case 1:
+            pushVC(viewController: TheBasicsViewController())
         default: break
             
         }
     }
     
+    func pushVC(viewController: UIViewController){
+        
+        self.navigationController?.pushViewController(viewController, animated: true)
+        
+    }
 
     func initData(){
         
-        _dataAry = ["swift初见"]
+        _dataAry = ["swift初见", "基础部分"]
         
     }
     
