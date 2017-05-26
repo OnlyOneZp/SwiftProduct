@@ -12,7 +12,7 @@ class TheBasicsViewController: UIViewController, UITableViewDelegate, UITableVie
 
     var _tableView = UITableView()
     
-    let _cellId = "SwiftFirst"
+    let _cellId = "TheBasicsViewController"
     
     var _dataAry = NSArray()
     

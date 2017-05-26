@@ -1,43 +1,41 @@
 //
-//  SwiftFirstViewController.swift
+//  BasicOperatorsViewController.swift
 //  MyProduct
 //
-//  Created by eims on 2017/5/15.
+//  Created by eims on 2017/5/26.
 //  Copyright © 2017年 eims. All rights reserved.
 //
 
 import UIKit
 
-class SwiftFirstViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class BasicOperatorsViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     var _tableView = UITableView()
     
-    let _cellId = "SwiftFirstViewController"
+    let _cellId = "BasicOperatorsViewController"
     
     var _dataAry = NSArray()
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
-        self.title = "swift初见"
+        
+        self.title = "基本运算符"
         self.view.backgroundColor = UIColor.white
         
         initData()
         
         _tableView = UITableView(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.size.width, height: UIScreen.main.bounds.size.height), style: UITableViewStyle.plain)
-
+        
         _tableView.delegate = self
         _tableView.dataSource = self
         
         self.view .addSubview(_tableView)
         
         _tableView.register(UITableViewCell().classForCoder, forCellReuseIdentifier: _cellId)
-        
-        
     }
-
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return _dataAry.count
@@ -57,28 +55,30 @@ class SwiftFirstViewController: UIViewController, UITableViewDelegate, UITableVi
         
         switch indexPath.row {
         case 0:
-            pushVC(viewController: MetSimpleValuesViewController())
+            pushVC(viewController: OperatorSuYuViewController())
         case 1:
-            pushVC(viewController: MetControlFlowViewController())
+            pushVC(viewController: OperatorFuZhiViewController())
         case 2:
-            pushVC(viewController: MetFunctionsAndClosuresViewController())
+            pushVC(viewController: OperatorSuanShuViewController())
         case 3:
-            pushVC(viewController: MetObjectsAndClassesViewController())
+            pushVC(viewController: OperatorZuheViewController())
         case 4:
-            pushVC(viewController: MetEnumAndStructViewController())
+            pushVC(viewController: OperatorBiJiaoViewController())
         case 5:
-            pushVC(viewController: MetProtocolsAndExtensionsViewController())
+            pushVC(viewController: OperatorSanMuViewController())
         case 6:
-            pushVC(viewController: MetErrorHandlingViewController())
+            pushVC(viewController: OperatorKongHeViewController())
         case 7:
-            pushVC(viewController: MetGenericsViewController())
+            pushVC(viewController: OperatorQuJianViewController())
+        case 8:
+            pushVC(viewController: OperatorLuoJiViewController())
         default:
             break
         }
     }
     
     func initData() {
-        _dataAry = ["简单值","控制流","函数和闭包","对象和类","枚举和结构体","协议和扩展","错误处理","泛型"]
+        _dataAry = ["术语","赋值运算符","算数运算符","组合赋值运算符","比较运算符","三目运算符","空合运算符","区间运算符","逻辑运算符"]
     }
     
     func pushVC(viewController: UIViewController){
@@ -86,7 +86,7 @@ class SwiftFirstViewController: UIViewController, UITableViewDelegate, UITableVi
         self.navigationController?.pushViewController(viewController, animated: true)
         
     }
-    
+
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

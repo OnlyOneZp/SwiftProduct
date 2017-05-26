@@ -13,7 +13,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
 
     var _tableView = UITableView()
     
-    let _cellId = "cellId"
+    let _cellId = "ViewController"
     
     var _dataAry = NSArray()
     
@@ -62,6 +62,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             pushVC(viewController: SwiftFirstViewController())
         case 1:
             pushVC(viewController: TheBasicsViewController())
+        case 2:
+            pushVC(viewController: BasicOperatorsViewController())
         default: break
             
         }
@@ -75,7 +77,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
 
     func initData(){
         
-        _dataAry = ["swift初见", "基础部分"]
+        _dataAry = ["swift初见", "基础部分", "基本运算符"]
         
     }
     

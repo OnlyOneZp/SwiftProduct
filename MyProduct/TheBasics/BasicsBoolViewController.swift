@@ -20,24 +20,9 @@ class BasicsBoolViewController: UIViewController {
         
         let mulStr = NSMutableString()
         
-        mulStr.append("\n\n")
-        mulStr.append("\n\n")
-        mulStr.append("\n\n")
-        mulStr.append("\n\n")
-        mulStr.append("\n\n")
-        mulStr.append("\n\n")
-        mulStr.append("\n\n")
-        mulStr.append("\n\n")
-        mulStr.append("\n\n")
-        mulStr.append("\n\n")
-        mulStr.append("\n\n")
-        mulStr.append("\n\n")
-        mulStr.append("\n\n")
-        mulStr.append("\n\n")
-        mulStr.append("\n\n")
-        mulStr.append("\n\n")
-        mulStr.append("\n\n")
-        mulStr.append("\n\n")
+        mulStr.append("Swift 有一个基本的布尔(Boolean)类型，叫做 Bool 。布尔值指逻辑上的值，因为它们只能是真或者假。Swift 有两个布尔常量，true 和 false\n\n")
+        mulStr.append("orangesAreOrange 和 turnipsAredelicious 的类型会被推断为 Bool ,，因为它们的初值是布尔字面量。就像之前提到的 Int 和 Double 一样，如果你创建变量的时候给它们赋 true 和 false ,那你不需要将常量或者变量声明为 Bool 类型\n\n")
+
         
         let textView = UITextView(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.size.width, height: UIScreen.main.bounds.size.height))
         textView.endEditing(false)

@@ -22,6 +22,16 @@
 		3C0ABAF21ED518FB008D9401 /* BasicsKeXuanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0ABAF11ED518FB008D9401 /* BasicsKeXuanViewController.swift */; };
 		3C0ABAF41ED51958008D9401 /* BasicsCuoWuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0ABAF31ED51958008D9401 /* BasicsCuoWuViewController.swift */; };
 		3C0ABAF61ED51963008D9401 /* BasicsDuanYanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0ABAF51ED51963008D9401 /* BasicsDuanYanViewController.swift */; };
+		3C6844531ED80E400069FE38 /* BasicOperatorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6844521ED80E400069FE38 /* BasicOperatorsViewController.swift */; };
+		3C6844551ED811370069FE38 /* OperatorSuYuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6844541ED811370069FE38 /* OperatorSuYuViewController.swift */; };
+		3C6844571ED811470069FE38 /* OperatorFuZhiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6844561ED811470069FE38 /* OperatorFuZhiViewController.swift */; };
+		3C6844591ED811590069FE38 /* OperatorSuanShuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6844581ED811590069FE38 /* OperatorSuanShuViewController.swift */; };
+		3C68445B1ED811640069FE38 /* OperatorZuheViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C68445A1ED811640069FE38 /* OperatorZuheViewController.swift */; };
+		3C68445D1ED811750069FE38 /* OperatorBiJiaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C68445C1ED811750069FE38 /* OperatorBiJiaoViewController.swift */; };
+		3C68445F1ED811820069FE38 /* OperatorSanMuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C68445E1ED811820069FE38 /* OperatorSanMuViewController.swift */; };
+		3C6844611ED811900069FE38 /* OperatorKongHeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6844601ED811900069FE38 /* OperatorKongHeViewController.swift */; };
+		3C6844631ED8119E0069FE38 /* OperatorQuJianViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6844621ED8119E0069FE38 /* OperatorQuJianViewController.swift */; };
+		3C6844651ED811AE0069FE38 /* OperatorLuoJiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6844641ED811AE0069FE38 /* OperatorLuoJiViewController.swift */; };
 		3C689F011ECC3FB900BD2C68 /* MetControlFlowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C689EF81ECC3FB900BD2C68 /* MetControlFlowViewController.swift */; };
 		3C689F021ECC3FB900BD2C68 /* MetEnumAndStructViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C689EF91ECC3FB900BD2C68 /* MetEnumAndStructViewController.swift */; };
 		3C689F031ECC3FB900BD2C68 /* MetErrorHandlingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C689EFA1ECC3FB900BD2C68 /* MetErrorHandlingViewController.swift */; };
@@ -73,6 +83,16 @@
 		3C0ABAF11ED518FB008D9401 /* BasicsKeXuanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicsKeXuanViewController.swift; sourceTree = "<group>"; };
 		3C0ABAF31ED51958008D9401 /* BasicsCuoWuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicsCuoWuViewController.swift; sourceTree = "<group>"; };
 		3C0ABAF51ED51963008D9401 /* BasicsDuanYanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicsDuanYanViewController.swift; sourceTree = "<group>"; };
+		3C6844521ED80E400069FE38 /* BasicOperatorsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicOperatorsViewController.swift; sourceTree = "<group>"; };
+		3C6844541ED811370069FE38 /* OperatorSuYuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperatorSuYuViewController.swift; sourceTree = "<group>"; };
+		3C6844561ED811470069FE38 /* OperatorFuZhiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperatorFuZhiViewController.swift; sourceTree = "<group>"; };
+		3C6844581ED811590069FE38 /* OperatorSuanShuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperatorSuanShuViewController.swift; sourceTree = "<group>"; };
+		3C68445A1ED811640069FE38 /* OperatorZuheViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperatorZuheViewController.swift; sourceTree = "<group>"; };
+		3C68445C1ED811750069FE38 /* OperatorBiJiaoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperatorBiJiaoViewController.swift; sourceTree = "<group>"; };
+		3C68445E1ED811820069FE38 /* OperatorSanMuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperatorSanMuViewController.swift; sourceTree = "<group>"; };
+		3C6844601ED811900069FE38 /* OperatorKongHeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperatorKongHeViewController.swift; sourceTree = "<group>"; };
+		3C6844621ED8119E0069FE38 /* OperatorQuJianViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperatorQuJianViewController.swift; sourceTree = "<group>"; };
+		3C6844641ED811AE0069FE38 /* OperatorLuoJiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperatorLuoJiViewController.swift; sourceTree = "<group>"; };
 		3C689EF81ECC3FB900BD2C68 /* MetControlFlowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetControlFlowViewController.swift; sourceTree = "<group>"; };
 		3C689EF91ECC3FB900BD2C68 /* MetEnumAndStructViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetEnumAndStructViewController.swift; sourceTree = "<group>"; };
 		3C689EFA1ECC3FB900BD2C68 /* MetErrorHandlingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetErrorHandlingViewController.swift; sourceTree = "<group>"; };
@@ -144,6 +164,23 @@
 			path = TheBasics;
 			sourceTree = "<group>";
 		};
+		3C6844511ED80B010069FE38 /* BasicOperators */ = {
+			isa = PBXGroup;
+			children = (
+				3C6844521ED80E400069FE38 /* BasicOperatorsViewController.swift */,
+				3C6844541ED811370069FE38 /* OperatorSuYuViewController.swift */,
+				3C6844561ED811470069FE38 /* OperatorFuZhiViewController.swift */,
+				3C6844581ED811590069FE38 /* OperatorSuanShuViewController.swift */,
+				3C68445A1ED811640069FE38 /* OperatorZuheViewController.swift */,
+				3C68445C1ED811750069FE38 /* OperatorBiJiaoViewController.swift */,
+				3C68445E1ED811820069FE38 /* OperatorSanMuViewController.swift */,
+				3C6844601ED811900069FE38 /* OperatorKongHeViewController.swift */,
+				3C6844621ED8119E0069FE38 /* OperatorQuJianViewController.swift */,
+				3C6844641ED811AE0069FE38 /* OperatorLuoJiViewController.swift */,
+			);
+			path = BasicOperators;
+			sourceTree = "<group>";
+		};
 		3C689EF71ECC3FB900BD2C68 /* SwiftMet */ = {
 			isa = PBXGroup;
 			children = (
@@ -187,6 +224,7 @@
 				3CB0C3AA1EC940E7000F201E /* ViewController.swift */,
 				3C689EF71ECC3FB900BD2C68 /* SwiftMet */,
 				3C0ABAD81ED51612008D9401 /* TheBasics */,
+				3C6844511ED80B010069FE38 /* BasicOperators */,
 				3CB0C3D91EC9922E000F201E /* Supporting Files */,
 			);
 			path = MyProduct;
@@ -356,27 +394,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C6844571ED811470069FE38 /* OperatorFuZhiViewController.swift in Sources */,
 				3C0ABAF61ED51963008D9401 /* BasicsDuanYanViewController.swift in Sources */,
 				3CB0C3AB1EC940E7000F201E /* ViewController.swift in Sources */,
 				3C0ABAE21ED51884008D9401 /* BasicsZhengShuViewController.swift in Sources */,
 				3C689F081ECC3FB900BD2C68 /* MetSimpleValuesViewController.swift in Sources */,
 				3C689F041ECC3FB900BD2C68 /* MetFunctionsAndClosuresViewController.swift in Sources */,
+				3C6844631ED8119E0069FE38 /* OperatorQuJianViewController.swift in Sources */,
 				3C689F021ECC3FB900BD2C68 /* MetEnumAndStructViewController.swift in Sources */,
 				3C0ABAE41ED51896008D9401 /* BasicsFuDianShuViewController.swift in Sources */,
 				3C0ABAF21ED518FB008D9401 /* BasicsKeXuanViewController.swift in Sources */,
+				3C6844551ED811370069FE38 /* OperatorSuYuViewController.swift in Sources */,
 				3C0ABAE81ED518B2008D9401 /* BasicsShuZhiViewController.swift in Sources */,
 				3C0ABADE1ED51868008D9401 /* BasicsZhuShiViewController.swift in Sources */,
+				3C68445F1ED811820069FE38 /* OperatorSanMuViewController.swift in Sources */,
+				3C68445B1ED811640069FE38 /* OperatorZuheViewController.swift in Sources */,
 				3C0ABAEA1ED518C5008D9401 /* BasicsZhuanHuanViewController.swift in Sources */,
+				3C68445D1ED811750069FE38 /* OperatorBiJiaoViewController.swift in Sources */,
 				3C689F091ECC3FB900BD2C68 /* SwiftFirstViewController.swift in Sources */,
 				3C0ABAF01ED518F0008D9401 /* BasicsYuanZuViewController.swift in Sources */,
 				3C0ABADA1ED51636008D9401 /* TheBasicsViewController.swift in Sources */,
 				3C689F061ECC3FB900BD2C68 /* MetObjectsAndClassesViewController.swift in Sources */,
 				3C0ABAE61ED518A6008D9401 /* BasicsLeiXingViewController.swift in Sources */,
+				3C6844531ED80E400069FE38 /* BasicOperatorsViewController.swift in Sources */,
 				3C0ABAEC1ED518D2008D9401 /* BasicsBieMingViewController.swift in Sources */,
 				3C0ABADC1ED5185A008D9401 /* BasicsChangLiangViewController.swift in Sources */,
 				3C0ABAF41ED51958008D9401 /* BasicsCuoWuViewController.swift in Sources */,
 				3C689F011ECC3FB900BD2C68 /* MetControlFlowViewController.swift in Sources */,
 				3C689F031ECC3FB900BD2C68 /* MetErrorHandlingViewController.swift in Sources */,
+				3C6844591ED811590069FE38 /* OperatorSuanShuViewController.swift in Sources */,
+				3C6844611ED811900069FE38 /* OperatorKongHeViewController.swift in Sources */,
+				3C6844651ED811AE0069FE38 /* OperatorLuoJiViewController.swift in Sources */,
 				3C0ABAEE1ED518DE008D9401 /* BasicsBoolViewController.swift in Sources */,
 				3C0ABAE01ED51875008D9401 /* BasicsFengHaoViewController.swift in Sources */,
 				3C689F071ECC3FB900BD2C68 /* MetProtocolsAndExtensionsViewController.swift in Sources */,
