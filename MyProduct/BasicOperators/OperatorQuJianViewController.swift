@@ -14,6 +14,27 @@ class OperatorQuJianViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        self.title = "区间运算符"
+        self.view.backgroundColor = UIColor.white
+        
+        
+        let mulStr = NSMutableString()
+        
+        mulStr.append("\n\n")
+        mulStr.append("\n\n")
+        mulStr.append("\n\n")
+        mulStr.append("\n\n")
+        mulStr.append("\n\n")
+        mulStr.append("\n\n")
+        mulStr.append("\n\n")
+        
+        
+        let textView = UITextView(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.size.width, height: UIScreen.main.bounds.size.height))
+        textView.endEditing(false)
+        textView.font = UIFont.systemFont(ofSize: 15.0)
+        textView.text = mulStr as String
+        
+        self.view.addSubview(textView)
     }
 
     override func didReceiveMemoryWarning() {
